@@ -1,7 +1,7 @@
-package com.company.Controller;
+package com.company.controller;
 
-import com.company.Model.User;
-import com.company.Service.UserService;
+import com.company.model.User;
+import com.company.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

@@ -1,6 +1,6 @@
-package com.company.Service;
+package com.company.service;
 
-import com.company.Model.User;
+import com.company.model.User;
 
 import java.util.List;
 

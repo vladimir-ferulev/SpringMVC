@@ -1,7 +1,7 @@
-package com.company.Service;
+package com.company.service;
 
-import com.company.DAO.UserDAO;
-import com.company.Model.User;
+import com.company.dao.UserDAO;
+import com.company.model.User;
 
 import java.util.List;
 

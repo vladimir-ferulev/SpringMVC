@@ -41,7 +41,7 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="annotatedClasses">
             <list>
-                <value>com.company.Model.User</value>
+                <value>com.company.model.User</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -56,12 +56,12 @@
     </bean>
 
     <!--UserDAO bean-->
-    <bean id="userDao" class="com.company.DAO.UserDAOImpl">
+    <bean id="userDao" class="com.company.dao.UserDAOImpl">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
     <!--UserService bean-->
-    <bean id="userService" class="com.company.Service.UserServiceImpl">
+    <bean id="userService" class="com.company.service.UserServiceImpl">
         <property name="userDAO" ref="userDao"/>
     </bean>
 

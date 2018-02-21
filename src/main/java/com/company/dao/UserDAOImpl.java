@@ -1,6 +1,6 @@
-package com.company.DAO;
+package com.company.dao;
 
-import com.company.Model.User;
+import com.company.model.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.transaction.annotation.Transactional;
